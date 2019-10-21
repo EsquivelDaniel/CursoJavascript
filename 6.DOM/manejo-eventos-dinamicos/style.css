@@ -1,0 +1,23 @@
+#boton {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+.otroBoton {
+    display: inline-flex;
+    background: blue;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 0 16px 16px;
+}
