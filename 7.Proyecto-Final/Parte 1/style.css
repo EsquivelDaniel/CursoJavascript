@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.card {
+    width: 320px;
+    background: lightgray;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    margin: 16px;
+    padding-bottom: 16px;
+}
+
+h2 {
+    padding: 16px 0 16px 16px;
+    margin: 0;
+    font-size: 24px;
+    color: brown;
+}
+
+.imagen {
+    width: 320px;
+    height: 320px;
+    border-radius: 8px 8px 0 0;
+}
+
+.fila {
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.fila-final {
+    margin-left: 16px;
+}
+
+.subtitulo {
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+}
+
+.precio {
+    display: inline-block;
+    color: darkorchid;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.contador {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background: white;
+    border-radius: 30px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.boton-menos {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 4px;
+}
+
+.boton-mas {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    right: 4px;
+}
+
+.cantidad {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+}
+
+.boton-agregar {
+    height: 48px;
+    margin: 16px 16px 0 16px;
+    background: blueviolet;
+    text-align: center;
+    color: white;
+    line-height: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.division {
+    height: 2px;
+    background: darkgrey;
+    margin-bottom: 16px;
+}
