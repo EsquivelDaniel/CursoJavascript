@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Final - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+                <!-- Tarjeta Botin de Futbol de Campo (Articulo 1) -->
+    <div class="card inline">
+        <img class="imagen" src="../assets/Botin-Campo.jpg" alt="Botin-nike">
+        <h2>Botin Futbol de campo</h2>
+        <div class="fila"> 
+            <span class="subtitulo">Precio</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-precio1" class="precio">5000</span>
+        </div>
+        <div class="fila"> 
+            <span class="subtitulo">Cantidad</span>
+            <div class="contador">
+                <img id="boton-menos1" class="boton-menos" src="../assets/menos.svg" alt="menos">
+                <span id="etiqueta-cantidad1" class="cantidad">0</span>
+                <img id="boton-mas1" class="boton-mas" src="../assets/mas.svg" alt="mas">
+            </div>
+        </div>
+        <div id="boton-agregar1" class="boton-agregar">Agregar</div>
+    </div>
+
+                <!-- Tarjeta Botin de Futbol 5 (Articulo 2) -->
+    <div class="card inline">
+        <img class="imagen" src="../assets/Botin-Futbol-5.jpg" alt="Botin-nike">
+        <h2>Botin Futbol 5</h2>
+        <div class="fila"> 
+            <span class="subtitulo">Precio</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-precio2" class="precio">4000</span>
+        </div>
+        <div class="fila"> 
+            <span class="subtitulo">Cantidad</span>
+            <div class="contador">
+                <img id="boton-menos2" class="boton-menos" src="../assets/menos.svg" alt="menos">
+                <span id="etiqueta-cantidad2" class="cantidad">0</span>
+                <img id="boton-mas2" class="boton-mas" src="../assets/mas.svg" alt="mas">
+            </div>
+        </div>
+        <div id="boton-agregar2" class="boton-agregar">Agregar</div>
+    </div>
+
+                <!-- Tarjeta Total a Pagar -->
+    <div class="card">
+        <h2>Total a pagar</h2>
+        <div id="contenedor">
+            <!-- Se agrega el contenido con JavaScript -->
+        </div>
+        <div class="fila">
+            <span class="subtitulo">Subtotal</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-subtotal" class="precio">0</span>
+        </div>
+        <div class="fila">
+            <span id="etiqueta-envio" class="subtitulo">Envio</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-valor-envio" class="precio">250</span>
+        </div>
+        <div class="fila">
+            <span id="etiqueta-descuento" class="subtitulo">Descuento</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-valor-descuento" class="precio">0</span>
+        </div>
+        <div class="division"></div>
+        <div class="fila-final">
+            <span class="subtitulo">Total</span>
+            <span class="precio">$</span>
+            <span id="etiqueta-total" class="precio">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
